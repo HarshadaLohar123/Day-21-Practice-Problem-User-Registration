@@ -8,10 +8,10 @@ namespace UserRegistrationException
         {
             Console.WriteLine("Welcome to the regex Program ");
 
-            string LastName;
-            Console.Write("Enter your Last Name : ");
-            LastName = Console.ReadLine();
-            RegexProblem.checkFirstName(LastName);
+            string Email;
+            Console.Write("Enter your Email ID : ");
+            Email = Console.ReadLine();
+            RegexProblem.checkFirstName(Email);
         }
     }
 }
