@@ -8,10 +8,10 @@ namespace UserRegistrationException
         {
             Console.WriteLine("Welcome to the regex Program ");
 
-            string PasswordRulesUpperCase;
+            string PasswordRulesNumberic;
             Console.Write("Enter your Password:\n");
-            PasswordRulesUpperCase = Console.ReadLine();
-            RegexProblem.checkPasswordRulesUpperCase(PasswordRulesUpperCase);
+            PasswordRulesNumberic = Console.ReadLine();
+            RegexProblem.checkPasswordRulesNumberic(PasswordRulesNumberic);
         }
     }
 }
