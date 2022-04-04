@@ -12,7 +12,6 @@ namespace UserRegistrationException
         {
             NULL_FIELD,
             INVALID_INPUT,
-
         }
         private readonly ExceptionType type;
         public ExceptionalHandling(ExceptionType Type, string message) : base(message)
